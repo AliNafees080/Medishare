@@ -31,7 +31,7 @@ Alternatively, you can deploy your own copy of the app using the web-based flow:
 
 For more information about using Node.js on Heroku, see these Dev Center articles:
 
-- [10 Habits of a Happy Node Hacker](https://blog.heroku.com/archives/2014/3/11/node-habits)
+- [10 Habits of a Happy Node Hacker]
 - [Getting Started with Node.js on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs)
 - [Heroku Node.js Support](https://devcenter.heroku.com/articles/nodejs-support)
 - [Node.js on Heroku](https://devcenter.heroku.com/categories/nodejs)
