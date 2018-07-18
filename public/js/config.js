@@ -11,11 +11,11 @@ angular.module('blankonConfig', [])
             settings = {
                 baseURL                 : baseURL,
                 pluginPath              : baseURL+'/assets/global/plugins/bower_components',
-                pluginCommercialPath    : baseURL+'/assets/commercial/plugins',
-                globalImagePath         : baseURL+'/img',
-                adminImagePath          : baseURL+'/assets/admin/img',
+                // pluginCommercialPath    : baseURL+'/assets/commercial/plugins',
+                // globalImagePath         : baseURL+'/img',
+                // adminImagePath          : baseURL+'/assets/admin/img',
                 cssPath                 : baseURL+'/assets/admin/css',
-                dataPath                : baseURL+'/production/admin/angularjs/data'
+                // dataPath                : baseURL+'/production/admin/angularjs/data'
         };
         $rootScope.settings = settings;
         return settings;

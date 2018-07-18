@@ -131,57 +131,6 @@ angular.module('blankonController', [])
         };
 
         // =========================================================================
-        // NAVBAR MESSAGES
-        // =========================================================================
-        $scope.navbarMessages = [];
-        $http.get(settings.dataPath+'/partials/header/navbar-messages.json') // Simple GET request example :
-            .success(function(data) {
-                // this callback will be called asynchronously
-                // when the response is available
-                $scope.navbarMessages = data;
-            })
-            .error(function(data, status, headers, config) {
-                // called asynchronously if an error occurs
-                // or server returns response with an error status.
-            });
-
-        // =========================================================================
-        // NAVBAR NOTIFICATIONS
-        // =========================================================================
-        $scope.navbarNotifications = [];
-        $http.get(settings.dataPath+'/partials/header/navbar-notifications.json') // Simple GET request example :
-            .success(function(data) {
-                $scope.navbarNotifications = data;
-            })
-            .error(function(data, status, headers, config) {
-                // Error actions
-            });
-
-        // =========================================================================
-        // SIDEBAR RIGHT (PROFILE TAB)
-        // =========================================================================
-        $scope.profile = [];
-        $http.get(settings.dataPath+'/partials/sidebar-right/profile.json') // Simple GET request example :
-            .success(function(data) {
-                $scope.profile = data;
-            })
-            .error(function(data, status, headers, config) {
-                // Error actions
-            });
-
-        // =========================================================================
-        // SIDEBAR RIGHT (PROFILE TAB)
-        // =========================================================================
-        $scope.chats = [];
-        $http.get(settings.dataPath+'/partials/sidebar-right/chat.json') // Simple GET request example :
-            .success(function(data) {
-                $scope.chats = data;
-            })
-            .error(function(data, status, headers, config) {
-                // Error actions
-            });
-
-        // =========================================================================
         // LOG EVENTS
         // =========================================================================
         // Log view event module loaded
